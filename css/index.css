@@ -1,0 +1,499 @@
+/* Temporary */
+html
+{
+    width: 100%;
+    background-color: #ffffff;
+}
+
+
+/* General */
+.family-law-wrapper
+{
+    width: 520px;
+    margin: 0 auto;
+    background-color: #eeeeee;
+    font-family: "Open Sans", sans-serif;
+
+    background-image: url("../image/background.png");
+    background-repeat: repeat-y;
+}
+
+.family-law-wrapper a
+{
+    color: #3B5998;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.family-law-wrapper a:hover
+{
+    text-decoration: underline;
+}
+
+.family-law-wrapper .audio
+{
+    color: #3B5998;
+    margin-left: 5px;
+    padding: 3px;
+    background-color: rgba(238, 238, 238, 0.5);
+    font-size: 10px;
+    border: 1px solid #3B5998;
+    transition: 0.2s;
+}
+
+.family-law-wrapper .audio:hover
+{
+    background-color: #3B5998;
+    border-color: #3B5998;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.family-law-wrapper p
+{
+    line-height: 19px;
+}
+
+.family-law-wrapper .page-title
+{
+    font-size: 23px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.family-law-wrapper .page-subtitle
+{
+    font-size: 1.0em;
+    text-align: center;
+}
+
+.family-law-wrapper .page-header
+{
+    background-color: rgba(238, 238, 238, 0.75);
+    color: #3B5998;
+    padding: 20px 0px;
+}
+
+.family-law-wrapper .page-organisers
+{
+    font-size: 0.85em;
+    text-align: center;
+
+    background-color: rgba(238, 238, 238, 0.75);
+    color: #6E84C4;
+    padding: 20px 0px;
+}
+
+.family-law-wrapper .page-intro
+{
+
+}
+
+.family-law-wrapper .page-intro .event-summary img
+{
+    width: 150px;
+    height: 181px;
+    float: left;
+    margin: 0px 10px 10px 0px;
+}
+
+.family-law-wrapper .page-intro .event-summary
+{
+    text-align: justify;
+    font-size: 13px;
+
+    background-color: rgba(238, 238, 238, 0.75);
+    padding: 10px;
+    margin: 10px 0px;
+    color: #3B5998;
+}
+
+.family-law-wrapper .page-intro .event-summary p:first-of-type
+{
+    margin-top: 0px;
+}
+
+
+.family-law-wrapper .page-intro .event-summary .poster
+{
+    text-align: center;
+}
+
+.family-law-wrapper .page-intro .pictures-wrapper
+{
+    text-align: center;
+    height: 138px;
+}
+
+.family-law-wrapper .page-intro .pictures-wrapper img
+{
+    width: 245px;
+}
+
+.family-law-wrapper .page-content .tab
+{
+    display: none;
+}
+
+/* Navigation */
+
+.family-law-wrapper .navbar
+{
+    width: 100%;
+    overflow-y: hidden;
+    margin: 20px 0px 20px 0px;
+    background-color: rgba(238, 238, 238, 0.75);
+    padding: 5px 0px 10px 0px;
+
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */
+    user-select: none;          /* Likely future */
+}
+
+.family-law-wrapper .navitem
+{
+    padding: 5px 11px;
+    display: inline-block;
+    text-align: center;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    height: 30px;
+    cursor: pointer;
+    color: #6E84C4;
+    margin: 0px 14px;
+    border-bottom: 3px solid #6E84C4;
+}
+
+.family-law-wrapper .navitem.active
+{
+    color: #3B5998;
+    border-bottom: 3px solid #3B5998;
+    -webkit-transition: 0.25s;
+    -moz-transition: 0.25s;
+    -o-transition: 0.25s;
+    transition: 0.25s;
+}
+
+/* Content */
+
+.family-law-wrapper .page-content
+{
+    width: 480px;
+    margin: 0px 20px;
+}
+
+.family-law-wrapper .news
+{
+
+}
+
+.family-law-wrapper .news .item
+{
+    background-color: rgba(238, 238, 238, 0.75);
+    padding: 10px;
+    margin: 10px 0px;
+}
+
+.family-law-wrapper .news .item-content-wrapper
+{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.family-law-wrapper .news .item .date
+{
+    font-size: 12px;
+    color: #6E84C4;
+    float: right;
+}
+
+.family-law-wrapper .news .item .content
+{
+    font-size: 14px;
+    color: #3B5998;
+    margin-top: 20px;
+}
+
+.family-law-wrapper .news .delimiter
+{
+    border-top: 3px solid #3B5998;
+    border-bottom: 3px solid #3B5998;
+    text-align: center;
+    color: #3B5998;
+    margin: 30px 0px;
+    clear: both;
+
+    background-color: rgba(238, 238, 238, 0.75);
+    padding: 8px 0px;
+}
+
+.family-law-wrapper .news .delimiter .content
+{
+    font-size: 0.85em;
+}
+
+.family-law-wrapper .public-event
+{
+
+}
+
+.family-law-wrapper .public-event .session
+{
+    background-color: rgba(238, 238, 238, 0.75);
+    padding: 10px;
+    margin: 10px 0px;
+}
+
+.family-law-wrapper .public-event .session-title
+{
+    font-weight: bold;
+    padding: 5px 0px;
+    color: #3B5998;
+    font-size: 1.25em;
+    text-align: center;
+}
+
+.family-law-wrapper .public-event .session .chair
+{
+    font-size: 0.85em;
+    color: #6E84C4;
+    text-align: center;
+
+    margin-bottom: 30px;
+}
+
+.family-law-wrapper .public-event .session .chair-details
+{
+    text-align: justify;
+    font-size: 14px;
+    color: #3B5998;
+}
+.family-law-wrapper .public-event .session .chair-details p:first-of-type
+{
+    margin-top: 0px;
+}
+
+.family-law-wrapper .public-event .session .chair-details img
+{
+    float: left;
+    margin: 0px 10px 0px 0px;
+    width: 160px;
+}
+
+.family-law-wrapper .public-event .session .panel-members
+{
+    margin: 40px 0px;
+}
+
+.family-law-wrapper .public-event .session .panel-members .title
+{
+    color: #3B5998;
+    font-size: 1.25em;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.family-law-wrapper .public-event .session .panel-members .names
+{
+    font-size: 14px;
+    color: #3B5998;
+    display: inline-block;
+    width: 210px;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.family-law-wrapper .public-event .session .panel-members .names li
+{
+    margin-bottom: 15px;
+}
+
+.family-law-wrapper .public-event .session .panel-members .names li:last-of-type
+{
+    margin-bottom: 0px;
+}
+
+.family-law-wrapper .public-event .session .panel-members img
+{
+    float: right;
+    width: 220px;
+}
+
+.family-law-wrapper .public-event .session .lecture
+{
+    padding: 5px;
+    margin: 5px 0px;
+}
+
+.family-law-wrapper .public-event .session .lecture:hover
+{
+    background-color: rgba(238, 238, 238, 0.3);
+}
+
+.family-law-wrapper .public-event .session .lecture .content-wrapper
+{
+    display: inline-block;
+    color: #6E84C4;
+}
+
+.family-law-wrapper .public-event .session .lecture .content-wrapper .title
+{
+    color: #3B5998;
+    font-size: 0.95em;
+}
+
+.family-law-wrapper .public-event .session .lecture .content-wrapper .author
+{
+    color: #6E84C4;
+    font-size: 0.85em;
+    display: inline;
+}
+
+.family-law-wrapper .public-event .session .pictures-wrapper
+{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.family-law-wrapper .public-event .session .pictures-wrapper img
+{
+    width: 220px;
+}
+
+.family-law-wrapper .gallery
+{
+
+}
+
+.family-law-wrapper .news
+{
+
+}
+
+.family-law-wrapper .lectures .info
+{
+    background-color: rgba(238, 238, 238, 1);
+    padding: 5px;
+    font-size: 12px;
+    color: #6E84C4;
+}
+
+.family-law-wrapper .lectures .session
+{
+    background-color: rgba(238, 238, 238, 0.75);
+    padding: 10px;
+    margin: 20px 0px;
+}
+
+.family-law-wrapper .lectures .session-title
+{
+    font-weight: bold;
+    padding: 5px 0px;
+    color: #3B5998;
+    font-size: 1.25em;
+    text-align: center;
+}
+
+.family-law-wrapper .lectures .session .chair
+{
+    font-size: 0.85em;
+    color: #6E84C4;
+    text-align: center;
+
+    margin-bottom: 30px;
+}
+
+.family-law-wrapper .lectures .session .lecture
+{
+    padding: 5px;
+    margin: 5px 0px;
+}
+
+.family-law-wrapper .lectures .session .lecture:hover
+{
+    background-color: rgba(238, 238, 238, 0.3);
+}
+
+.family-law-wrapper .lectures .session .lecture .content-wrapper
+{
+    display: inline-block;
+    color: #6E84C4;
+}
+
+.family-law-wrapper .lectures .session .lecture .content-wrapper .title
+{
+    color: #3B5998;
+    font-size: 0.95em;
+}
+
+.family-law-wrapper .lectures .session .lecture .content-wrapper .author
+{
+    color: #6E84C4;
+    font-size: 0.85em;
+    display: inline;
+}
+
+.family-law-wrapper .lectures .delimiter
+{
+    color: #3B5998;
+    margin: 15px 0px;
+    clear: both;
+    padding: 8px 0px;
+    text-align: right;
+}
+
+.family-law-wrapper .lectures .delimiter .content
+{
+    font-size: 13px;
+    font-weight: bold;
+
+    text-shadow:
+        -1px -1px 15px #FFFFFF,
+        1px -1px 15px #FFFFFF,
+        -1px 1px 15px #FFFFFF,
+        1px 1px 15px #FFFFFF;
+}
+
+/* Footer */
+
+.family-law-wrapper footer
+{
+    margin-top: 50px;
+    background-color: rgba(238, 238, 238, 0.75);
+
+    text-align: center;
+}
+
+.family-law-wrapper footer .title
+{
+    text-align: center;
+    padding: 10px;
+    color: #3B5998;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.family-law-wrapper footer .sponsor
+{
+    margin: 10px;
+    display: inline-block;
+}
+
+.family-law-wrapper footer .sponsor a
+{
+    display: block;
+    margin: 0 auto;
+}
+
+.family-law-wrapper footer .sponsor a img
+{
+    height: 100px;
+}
+
+.family-law-wrapper .visits-counter
+{
+    text-align: right;
+}
